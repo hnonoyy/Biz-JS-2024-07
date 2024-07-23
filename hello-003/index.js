@@ -8,6 +8,8 @@ import {
   expoNum,
 } from "./arrays.js";
 
+import objView from "./json.js";
+
 arrays();
 multiArrays();
 
@@ -18,3 +20,5 @@ addNation("프랑스");
 viewNations();
 addNums();
 expoNum();
+
+objView();

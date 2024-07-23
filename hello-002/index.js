@@ -4,4 +4,11 @@ let sum = num1 + num2;
 // 문자열 Template, Template Stirng
 // expression interpolation(표현식 삽입법)
 // String.format()
-console.log(`${num1}+${num2} =${sum}`);
+console.log(`${num1}+${num2} = ${sum}`);
+console.log(`${num1}+${num2} = ${num1 + num2}`);
+
+// arrays.js 에서 export 한 arrays 함수를 index.js에서 사용하겠다.
+const { arrays, multiArrays } = require("./arrays");
+// import 한 함수를 실행하기
+arrays();
+multiArrays();
